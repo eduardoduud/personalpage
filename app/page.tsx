@@ -4,7 +4,7 @@ import "./styles.css"
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 
-const animation = { duration: 55000, easing: (t: number) => t }
+const animation = { duration: 25000, easing: (t: number) => t }
 
 export default function Home() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
@@ -12,26 +12,26 @@ export default function Home() {
     renderMode: "performance",
     slides: () => [
       {
-        size: 0.3,
-        spacing: 0.15,
+        size: 0.4,
+        spacing: 0.14,
       },
       {
-        size: 0.3,
-        spacing: 0.15,
+        size: 0.4,
+        spacing: 0.14,
       },
       {
-        size: 0.3,
-        spacing: 0.15,
+        size: 0.4,
+        spacing: 0.14,
       }],
     drag: true,
     created(s) {
-      s.moveToIdx(5, true, animation)
+      s.moveToIdx(3, true, animation)
     },
     updated(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, animation)
+      s.moveToIdx(s.track.details.abs + 3, true, animation)
     },
     animationEnded(s) {
-      s.moveToIdx(s.track.details.abs + 5, true, animation)
+      s.moveToIdx(s.track.details.abs + 3, true, animation)
     },
   })
 
@@ -149,7 +149,7 @@ export default function Home() {
           <p className="flex py-5 justify-center text-orange-500 text-3xl font-bold">
             Projetos
           </p>
-          <div ref={sliderRef} className="keen-slider ">
+          <div ref={sliderRef} className="keen-slider pb-10">
             <div className="keen-slider__slide number-slide1 align-middle flex flex-col">
               <p className="text-[25px]">Twitter Clone</p>
               <a href="https://tuliter.vercel.app/">
