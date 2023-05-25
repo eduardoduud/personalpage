@@ -40,10 +40,10 @@ export default function Home() {
       <header className='bg-neutral-900 border-b border-gray-700'>
           <div className="flex items-center justify-center">
             <div className="w-max pt-2 flex flex-row">
-              <img className="flex" src="/images/logo.jpg" alt="Logo" />
-              <h1 className="mt-5 h-14 pl-5 flex overflow animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
+              <img className="md:-ml-20 hidden md:block " src="/images/logo.jpg" alt="Logo" />
+              <h1 className="mt-5 h-14 pl-5 overflow animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">
                 Eduardo Domingues
-                </h1>
+              </h1>
             </div>
           </div>
         <div className='flex flex-row justify-center'>
@@ -76,9 +76,9 @@ export default function Home() {
       </header>
       <div>
         <section id='about' className="flex bg-neutral-950 border-b border-gray-700">
-          <div className="flex flex-wrap md:flex-row lg:flex-row xl:flex-row">
+          <div className="flex flex-col lg:flex-row">
           {/* Sobre mim */}
-            <div className="flex w-full xl:h-[450px] sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-[600px] justify-center">
+            <div className="flex w-full lg:h-[450px] sm:w-full  2xl:w-[600px] justify-center">
               <img className="
                 p-9
                 flex
@@ -88,15 +88,15 @@ export default function Home() {
                 max-w-md
                 w-4/12
                 sm:w-4/12
-                md:w-5/12
+                md:w-6/12
                 lg:w-9/12
-                2xl:w-9/12
+                2xl:w-11/12
                 "
                 src="/images/eu1.jpg"
                 alt="Minha Imagem"
               />
             </div>
-            <span className="p-3 md:p-7 lg:p-7 xl:p-7 break-words xl:max-w-[1075px] 2xl:max-w-[1300px] flex flex-col">
+            <span className="p-3 md:p-7 lg:p-7 xl:p-7 break-words lg:max-w-[750px] xl:max-w-[800px] 2xl:max-w-[1300px] flex flex-col">
               <p className="text-orange-300 font-semibold text-3xl">
                 Sobre mim
               </p>
