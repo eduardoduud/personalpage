@@ -396,7 +396,7 @@ export default function Home() {
             <a
               className="px-2"
               title="Linkedin"
-              href="https://www.linkedin.com/in/eduardodominguess/"
+              href="https://www.linkedin.com/in/eduardoedomingues/"
               target="_blank"
             >
               <AiOutlineLinkedin size={40} />
