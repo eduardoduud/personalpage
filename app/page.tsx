@@ -195,8 +195,10 @@ export default function Home() {
                     Formação acadêmica
                   </p>
                   <p className="mt-2 text-white">
-                    Lorem impsum Lorem impsum Lorem impsum Lorem impsum Lorem
-                    impsum
+                    Sou formado em Redes de Computadores pelo SENAI e atualmente
+                    estou cursando Desenvolvimento Full Stack na Estácio.
+                    Anteriormente cursei quatro períodos de Ciência da
+                    Computação na UFRPE
                   </p>
                 </motion.div>
               </AnimatePresence>
