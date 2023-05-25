@@ -47,11 +47,11 @@ export default function Home() {
             </div>
           </div>
         <div className='flex flex-row justify-center'>
-          <p title='design fistáile' className='text-orange-400 text-lg pl-[90px] -mt-4'>
+          <p title='design fistáile' className='text-orange-400 text-lg pl-[170px] -mt-6'>
             full stack develope
           </p>
           <a href="https://www.youtube.com/watch?v=C-c4ref0yX8" target="_blank">
-            <p title='design fistáile' className='text-orange-400 text-lg -mt-4'>
+            <p title='design fistáile' className='text-orange-400 text-lg -mt-6'>
               r
             </p>
           </a>
@@ -164,7 +164,7 @@ export default function Home() {
             </div>
             <div className="keen-slider__slide number-slide3 flex flex-col">
               <p className="text-[25px]">Flutter App</p>
-              <a href="https://github.com/eduardoduud?tab=repositories">
+              <a href="https://github.com/eduardoduud/SportsTools">
                 <img className="rounded-lg border-2 border-neutral-500 hover:border-sky-500 hover:scale-95 duration-500" src="/images/sportstools.jpg" alt="Flutter App"/>
               </a>
             </div>
