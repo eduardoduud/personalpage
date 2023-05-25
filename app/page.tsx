@@ -4,6 +4,9 @@ import "./styles.css";
 import "keen-slider/keen-slider.min.css";
 import { useKeenSlider } from "keen-slider/react";
 import { motion, AnimatePresence } from "framer-motion";
+import { AiOutlineLinkedin } from "react-icons/ai";
+import { BsGithub } from "react-icons/bs";
+import { SiGmail } from "react-icons/si";
 
 const animation = { duration: 25000, easing: (t: number) => t };
 
@@ -113,7 +116,7 @@ export default function Home() {
                 href="#socials"
                 className="cursor-pointer duration-500 hover:scale-105 hover:text-sky-500"
               >
-                Socials
+                Contato
               </a>
             </div>
           </motion.div>
@@ -296,7 +299,7 @@ export default function Home() {
         </section>
         <section
           id="skills"
-          className="h-auto w-full border-b border-gray-700 bg-neutral-900 py-14"
+          className="h-auto w-full border-b border-gray-700 bg-neutral-900 py-10"
         >
           <p className="flex justify-center pb-10 text-3xl font-bold text-orange-500">
             Hard Skills
@@ -342,9 +345,9 @@ export default function Home() {
         </section>
         <section
           id="projects"
-          className="h-auto w-full border-b border-gray-700 bg-neutral-950"
+          className="h-auto w-full border-b border-gray-700 bg-neutral-950 py-10"
         >
-          <p className="flex justify-center py-5 text-3xl font-bold text-orange-500">
+          <p className="flex justify-center pb-5 text-3xl font-bold text-orange-500">
             Projetos
           </p>
           <div ref={sliderRef} className="keen-slider pb-10">
@@ -382,11 +385,37 @@ export default function Home() {
         </section>
         <section
           id="socials"
-          className="h-auto w-full border-b border-gray-700 bg-neutral-900"
+          className="h-auto w-full border-b border-gray-700 bg-neutral-900 py-10"
         >
-          <p className="flex justify-center py-5 text-3xl font-bold text-orange-500">
-            Socials
+          <p className="flex justify-center pb-5 text-3xl font-bold text-orange-500">
+            Fale comigo!
           </p>
+          <span className="flex justify-center text-white">
+            <a
+              className="px-2"
+              title="Linkedin"
+              href="https://www.linkedin.com/in/eduardodominguess/"
+              target="_blank"
+            >
+              <AiOutlineLinkedin size={40} />
+            </a>
+            <a
+              className="px-2"
+              title="Github"
+              href="https://github.com/eduardoduud"
+              target="_blank"
+            >
+              <BsGithub size={40} />
+            </a>
+            <a
+              className="px-2"
+              title="Gmail"
+              href="mailto:eeadomingues@gmail.com?subject=Olá, Eduardo!&body=Escreva sua mensagem"
+              target="_blank"
+            >
+              <SiGmail size={40} />
+            </a>
+          </span>
         </section>
       </div>
     </main>
