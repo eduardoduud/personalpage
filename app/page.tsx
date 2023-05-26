@@ -140,19 +140,20 @@ export default function Home() {
         </AnimatePresence>
         <section className="flex border-b border-gray-700 bg-neutral-950 p-9 pt-5">
           <div className="flex flex-col lg:flex-row">
-            <div className="flex w-full justify-center sm:w-full  lg:h-[450px] 2xl:w-[600px]">
-              <AnimatePresence>
-                <motion.div
-                  initial={{ opacity: 0, x: -85 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: -85 }}
-                  transition={{ delay: 0.1 }}
-                >
+            <AnimatePresence>
+              <motion.div
+                initial={{ opacity: 0, x: -85 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -85 }}
+                transition={{ delay: 0.1 }}
+              >
+                <div className="flex w-full justify-center sm:w-full  lg:h-[450px] 2xl:w-[600px]">
                   <img
                     className="
                   flex
                   w-4/12
                   max-w-md
+                  justify-center
                   rounded-full
                   duration-500
                   hover:scale-105
@@ -164,9 +165,9 @@ export default function Home() {
                     src="/images/eu1.jpg"
                     alt="Minha Imagem"
                   />
-                </motion.div>
-              </AnimatePresence>
-            </div>
+                </div>
+              </motion.div>
+            </AnimatePresence>
             <span className="flex flex-col break-words p-3 md:p-7 lg:max-w-[750px] lg:p-7 xl:max-w-[800px] xl:p-7 2xl:max-w-[1300px]">
               <AnimatePresence>
                 <motion.div
