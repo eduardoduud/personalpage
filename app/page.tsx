@@ -50,7 +50,7 @@ export default function Home() {
               src="/images/logo.jpg"
               alt="Logo"
             />
-            <h1 className="overflow mt-5 h-14 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pl-5 pr-5 text-5xl font-bold text-white">
+            <h1 className="overflow mt-5 h-14 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white px-5 text-3xl font-bold text-white sm:text-5xl">
               Eduardo Domingues
             </h1>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
             exit={{ opacity: 0, x: 155 }}
             transition={{ delay: 0.1 }}
           >
-            <div className="my-3 flex flex-row justify-center gap-8 text-sm font-semibold text-emerald-400">
+            <div className="my-3 flex flex-row justify-center gap-4 text-sm font-semibold text-emerald-400 sm:gap-8">
               <a
                 href="#about"
                 className="cursor-pointer duration-500 hover:scale-105 hover:text-sky-500"
