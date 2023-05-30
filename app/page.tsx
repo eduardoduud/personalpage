@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
+import BackToTop from "@/components/BackToTop";
 
 const animation = { duration: 25000, easing: (t: number) => t };
 
@@ -305,7 +306,7 @@ export default function Home() {
           className="h-auto w-full border-b border-gray-700 bg-neutral-900 py-10"
         >
           <p className="flex justify-center pb-10 text-3xl font-bold text-orange-500">
-            Hard Skills
+            Tech Skills
           </p>
           <span className="flex justify-center">
             <img
@@ -421,6 +422,7 @@ export default function Home() {
           </span>
         </section>
       </div>
+      <BackToTop />
     </main>
   );
 }
