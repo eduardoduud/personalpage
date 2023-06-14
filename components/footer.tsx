@@ -1,9 +1,16 @@
 const Footer = () => {
   return (
     <div className="flex h-9 w-full flex-row items-center justify-center text-white">
-      <span>Criado por Eduardo Domingues -&nbsp;</span>
+      <span>Criado por&nbsp;</span>
       <a
-        className="text-sky-500 hover:font-bold hover:underline"
+        className="font-bold hover:underline"
+        href="https://eduardodomingues.vercel.app/"
+      >
+        Eduardo Domingues
+      </a>
+      <span>&nbsp;-&nbsp;</span>
+      <a
+        className="font-bold text-sky-500 hover:underline"
         href="https://github.com/eduardoduud"
       >
         GitHub
@@ -11,5 +18,4 @@ const Footer = () => {
     </div>
   );
 };
-
 export default Footer;
