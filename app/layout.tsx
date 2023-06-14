@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Roboto } from "next/font/google";
-import { motion, AnimatePresence } from "framer-motion";
 
 export const metadata = {
   title: "Eduardo Domingues",

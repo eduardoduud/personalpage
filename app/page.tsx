@@ -7,7 +7,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
-import BackToTop from "@/components/BackToTop";
+
+import Footer from "@/components/footer";
 
 const animation = { duration: 25000, easing: (t: number) => t };
 
@@ -421,8 +422,8 @@ export default function Home() {
             </a>
           </span>
         </section>
+        <Footer />
       </div>
-      <BackToTop />
     </main>
   );
 }
