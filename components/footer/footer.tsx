@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="flex h-9 w-full flex-row items-center justify-center text-white">
+    <div className="flex h-9 w-full flex-row items-center justify-center bg-neutral-950 text-white">
       <span>Criado por&nbsp;</span>
       <a
         className="font-bold hover:underline"
