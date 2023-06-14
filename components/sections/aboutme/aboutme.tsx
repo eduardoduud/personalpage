@@ -29,7 +29,7 @@ const Aboutme = () => {
                   lg:w-9/12
                   2xl:w-11/12
                   "
-                src="/images/eu1.jpg"
+                src="/assets/images/eu1.jpg"
                 alt="Minha Imagem"
               />
             </div>

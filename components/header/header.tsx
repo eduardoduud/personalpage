@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex w-max flex-row pt-2">
           <img
             className="hidden md:-ml-20 md:block "
-            src="/images/logo.jpg"
+            src="/assets/images/logo.jpg"
             alt="Logo"
           />
           <h1 className="overflow mt-5 h-14 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white px-5 text-3xl font-bold text-white sm:text-5xl">

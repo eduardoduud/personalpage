@@ -45,7 +45,7 @@ const Projects = () => {
           <a href="https://tuliter.vercel.app/">
             <img
               className="rounded-lg border-2 border-neutral-500 duration-500 hover:scale-95 hover:border-sky-500"
-              src="/images/twitter.jpg"
+              src="/assets/images/twitter.jpg"
               alt="Twitter Clone"
             />
           </a>
@@ -55,7 +55,7 @@ const Projects = () => {
           <a href="https://todo-taskss.vercel.app/">
             <img
               className="rounded-lg border-2 border-neutral-500 duration-500 hover:scale-95 hover:border-sky-500"
-              src="/images/todo.jpg"
+              src="/assets/images/todo.jpg"
               alt="To-do List"
             />
           </a>
@@ -65,7 +65,7 @@ const Projects = () => {
           <a href="https://github.com/eduardoduud/SportsTools">
             <img
               className="rounded-lg border-2 border-neutral-500 duration-500 hover:scale-95 hover:border-sky-500"
-              src="/images/sportstools.jpg"
+              src="/assets/images/sportstools.jpg"
               alt="Flutter App"
             />
           </a>
